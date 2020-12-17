@@ -1,8 +1,8 @@
-# 📦 webpack Boilerplate
+# 📦 SSV
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-Sensible webpack 5 boilerplate using Babel, PostCSS and Sass with a hot dev server and an optimized production build.
+SSV deployment test
 
 ## Installation
 
@@ -83,7 +83,7 @@ cd dist && http-server
 
 ## Author
 
-- [Tania Rascia](https://www.taniarascia.com)
+- [Ray Seikel (rseikel@bigpond.com)
 
 ## License
 
