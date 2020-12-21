@@ -1,6 +1,6 @@
 {
   "name": "@rseikel/ssv2",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Testing deployment of the javascript Simple Spectrum Viewer package.",
   "main": "index.js",
   "author": "Ray Seikel (rseikel@bigpond.com)",
