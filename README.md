@@ -6,11 +6,22 @@ SSV deployment test
 
 ## Installation
 
-Clone this repo and npm install.
+Clone this repo and npm install (On Mac I most recently used nvm v10.16.3)
 
 ```bash
 npm i
 ```
+
+## Updating the package
+
+git commit
+git push
+npm version major|minor
+npm publish
+
+
+-------------------------------------
+(Docs below are legacy from the original webpack Biolerplate example from Tania Rascia at https://github.com/taniarascia/webpack-boilerplate)
 
 ## Usage
 
@@ -84,6 +95,26 @@ cd dist && http-server
 ## Author
 
 - [Ray Seikel (rseikel@bigpond.com)
+
+## Other documentation
+See also:
+- https://www.taniarascia.com/how-to-use-webpack/
+- https://itnext.io/how-to-build-and-publish-npm-packages-with-webpack-dea19bb14627
+
+1. If you want to delete your package from npm, then use this command:
+    npm unpublish [package_name]
+2. Each time you deploy a new version of your library, be sure to update the version from package.json
+    "version": "1.0.0", -> "version":"1.0.1"
+3. You can test your package locally using this command:
+    npm link
+
+## Note on versioning
+
+1. Major releases contain significant new features, some but minimal developer assistance is expected during the update. When updating to a new major release, you may need to run update scripts, refactor code, run additional tests, and learn new APIs.
+
+2. Minor releases contain new smaller features. Minor releases are fully backward-compatible; no developer assistance is expected during update, but you can optionally modify your apps and libraries to begin using new APIs, features, and capabilities that were added in the release. We update peer dependencies in minor versions by expanding the supported versions, but we do not require projects to update these dependencies.
+
+3. Patch releases are low risk, bug fix releases. No developer assistance is expected during update.
 
 ## License
 

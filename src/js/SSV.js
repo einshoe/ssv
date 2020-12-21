@@ -105,6 +105,7 @@ export class SSV {
      * Inititialise this instance using predefined plugins
      */
     initialise() {
+        console.log("ssv initialised");
         this.plugin_apply("loadSpectraLines", {"message":"loading"});
         this.plugin_apply("loadTemplates", {"message":"loading"});
         this.setTemplates(this.plugin_getValue["loadTemplates"]);
