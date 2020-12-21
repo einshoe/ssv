@@ -101,11 +101,12 @@ See also:
 - https://www.taniarascia.com/how-to-use-webpack/
 - https://itnext.io/how-to-build-and-publish-npm-packages-with-webpack-dea19bb14627
 
-1. If you want to delete your package from npm, then use this command:
+1. To publish use this command:
+    npm publish --access public
+2. If you want to delete your package from npm, then use this command:
     npm unpublish [package_name]
-2. Each time you deploy a new version of your library, be sure to update the version from package.json
-    "version": "1.0.0", -> "version":"1.0.1"
-3. You can test your package locally using this command:
+3. npm version major|minor|patch
+4. You can test your package locally using this command:
     npm link
 
 ## Note on versioning

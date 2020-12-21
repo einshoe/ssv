@@ -1,5 +1,5 @@
 {
-  "name": "@rseikel/ssv1",
+  "name": "@rseikel/ssv2",
   "version": "0.0.1",
   "description": "Testing deployment of the javascript Simple Spectrum Viewer package.",
   "main": "index.js",
